@@ -124,3 +124,33 @@ print(paired_t)
 
 wilcox_t = wilcox.test(data$post_test, data$pre_test, paired =TRUE, alternative ='greater') 
 print(wilcox_t)
+
+
+###Getting ready for git-r synch
+#Install git in desktop. Register the account online. 
+
+#Git configuration in Terminal
+#git config --global user.name "Your Name"
+#git config --global user.email "your.email@example.com"
+
+
+#### Git initialize in Terminal
+#git init
+#add .gitignore file in project directory
+
+### Git add
+#git add .
+#git commit -m "comment"
+
+###Create remote repository in github.
+
+### Add remote repository
+#git remote add origin url
+#git branch -M main
+#git push -u origin main
+
+### Pull and push for changes
+#git pull origin main ### only if things are not latest in local machine
+#git add . ###after changes
+#git commit -m "comment"
+#git push -u origin main
